@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 const App = () => {
   return (
-    <div>
-      Hello!
+    <div className="relative flex flex-col">
+      <Navbar/>
     </div>
   )
 }
